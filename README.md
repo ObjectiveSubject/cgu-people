@@ -24,21 +24,12 @@ The profiles shortcode allows you to create profile blocks for one or more peopl
 
 This shortcode takes the following parameters:
 
-**ids** | *Default: 0*
-
-*(required)* A comma separated list of post IDs of the people or students you'd like to display.
-
-**includes** | *Default: ""*
-
-*(optional)* A comma separated list of items to display for each profile. Options include: image, email, phone, website, cv, degrees, programs, expertise, and affiliations. If no information exists for a particular profile, it will not display. Name and Title will always display. The order in which you specify these items does not matter. The order in which they're listed here is the order in which they'll appear (note: image will display above name and title).
-
-**span** | *Default: 4*
-
-*(optional)* The width, in number of columns (1-12), or each profile. Use this to display a profile or group of profiles in columns.
-
-**link_to_profile** | *Default: true*
-
-*(optional)* By default, a "View Profile" link is provided below each profile. Set to "false" to hide this link.
+Attribute | Default | Description
+---|---|---
+`ids` | *0* | *(required)* A comma separated list of post IDs of the people or students you'd like to display.
+`includes` | *""* | *(optional)* A comma separated list of fields to display for each profile. Options include: `image`, `email`, `phone`, `website`, `cv`, `degrees`, `expertise`. If no information exists for a particular profile, it will not display. Name and Title will always display. The order in which you specify these items does not matter. The order in which they're listed here is the order in which they'll appear (note: image will display above name and title).
+`span` | *4* | *(optional)* The width, in number of columns (1-12), or each profile. Use this to display a profile or group of profiles in columns.
+`link_to_profile` | *true* | *(optional)* By default, a "View Profile" link is provided below each profile. Set to "false" to hide this link.
 
 #### Examples
 
