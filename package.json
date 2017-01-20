@@ -1,0 +1,28 @@
+{
+  "name": "cgu-people",
+  "title": "CGU People",
+  "description": "Adds support for People to CGU Core themes",
+  "version": "1.0.0",
+  "homepage": "",
+  "archive": "cgu-people",
+  "repository": {
+    "type": "git",
+    "url": "http://www.github.com/objectivesubject/cgu-people"
+  },
+  "author": {
+    "name": "Objective Subject",
+    "email": "tech@objectivesubject.com",
+    "url": "http://objectivesubject.com"
+  },
+  "devDependencies": {
+    "glob": "^7.1.1",
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-compress": "^1.4.0",
+    "load-grunt-config": "^0.19.2",
+    "load-grunt-tasks": "^3.5.2"
+  },
+  "keywords": [
+    "cgu", "cgu-people"
+  ]
+}
